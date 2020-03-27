@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bruhmod",
+  "name": "Bruh Mod",
+  "description": "Bruuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuhhhhhhhhhhhhh",
+  "version": 1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Kysonn Dela Cerna"],
+  "credits": "The Forge and FML guys,
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
