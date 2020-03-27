@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "DDD",
+        "DDD",
+        "DDD"
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "item": "bruhmod:deanium_ingot"
+        }
+    },
+   
+    "result":
+    {
+        "item": "bruhmod:deanium_block",
+        "count": 1
+    }
+}

@@ -1,4 +1,6 @@
 package com.KysonnDelaCerna.Bruh;
+
+import com.KysonnDelaCerna.Bruh.init.ModRecipes;
 import com.KysonnDelaCerna.Bruh.proxy.CommonProxy;
 import com.KysonnDelaCerna.Bruh.util.Reference;
 import net.minecraftforge.fml.common.Mod;
@@ -24,7 +26,7 @@ public class Main {
 	
 	@EventHandler
 	public static void init(FMLInitializationEvent event) {
-		
+		ModRecipes.init();
 	}
 	
 	@EventHandler

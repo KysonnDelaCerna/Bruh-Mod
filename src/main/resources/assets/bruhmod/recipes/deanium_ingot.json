@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "minecraft:milk_bucket"
+    },
+ 
+    {
+      "item": "minecraft:dye",
+      "data": 3
+    },
+    
+    {
+      "item": "bruhmod:deanium_ore"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "bruhmod:deanium_mix",
+        "count": 2
+    }
+}

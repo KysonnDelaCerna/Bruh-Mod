@@ -1,2 +1,7 @@
+//ITEMS
 item.deanium_ingot.name=Deanium Ingot
+item.deanium_mix.name=Deanium Mix
+
+//BLOCKS
 tile.deanium_block.name=Block of Deanium
+tile.deanium_ore.name=Deanium Ore
