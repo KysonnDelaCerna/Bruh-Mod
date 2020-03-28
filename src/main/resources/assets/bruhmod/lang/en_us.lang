@@ -6,6 +6,10 @@ item.deanium_shovel.name=Deanium Shovel
 item.deanium_pickaxe.name=Deanium Pickaxe
 item.deanium_axe.name=Deanium Axe
 item.deanium_hoe.name=Deanium Hoe
+item.deanium_helmet.name=Deanium Helmet
+item.deanium_chestplate.name=Deanium Chestplate
+item.deanium_leggings.name=Deanium Leggings
+item.deanium_boots.name=Deanium Boots
 
 //BLOCKS
 tile.deanium_block.name=Block of Deanium

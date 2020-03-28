@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "D D",
+        "D D",
+        ""
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "item": "bruhmod:deanium_ingot"
+        }
+    },
+   
+    "result":
+    {
+        "item": "bruhmod:deanium_boots",
+        "count": 1
+    }
+}
