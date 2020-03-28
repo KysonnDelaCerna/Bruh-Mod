@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "bruhmod:blocks/chann_log_top",
+        "side": "bruhmod:blocks/chann_log"
+    }
+}

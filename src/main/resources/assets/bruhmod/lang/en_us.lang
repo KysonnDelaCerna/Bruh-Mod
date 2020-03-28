@@ -11,6 +11,9 @@ item.deanium_chestplate.name=Deanium Chestplate
 item.deanium_leggings.name=Deanium Leggings
 item.deanium_boots.name=Deanium Boots
 
+
 //BLOCKS
 tile.deanium_block.name=Block of Deanium
 tile.deanium_ore.name=Deanium Ore
+tile.chann_log.name=Chann Wood
+tile.chann_leaves.name=Chann Leaves
