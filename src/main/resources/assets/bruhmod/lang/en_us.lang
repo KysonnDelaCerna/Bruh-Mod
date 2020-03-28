@@ -1,6 +1,11 @@
 //ITEMS
 item.deanium_ingot.name=Deanium Ingot
 item.deanium_mix.name=Deanium Mix
+item.deanium_sword.name=Deanium Sword
+item.deanium_shovel.name=Deanium Shovel
+item.deanium_pickaxe.name=Deanium Pickaxe
+item.deanium_axe.name=Deanium Axe
+item.deanium_hoe.name=Deanium Hoe
 
 //BLOCKS
 tile.deanium_block.name=Block of Deanium

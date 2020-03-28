@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "D",
+        "D",
+        "S"
+    ],
+   
+    "key":
+    {
+        "D":
+        {
+            "item": "bruhmod:deanium_ingot"
+        },
+        
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+   
+    "result":
+    {
+        "item": "bruhmod:deanium_sword",
+        "count": 1
+    }
+}
