@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import com.KysonnDelaCerna.Bruh.blocks.*;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockFlower;
 import net.minecraft.block.material.Material;
 
 public class ModBlocks {
@@ -14,4 +15,7 @@ public class ModBlocks {
 	public static final Block DEANIUM_ORE = new DeaniumOre("deanium_ore", Material.ROCK);
 	public static final Block CHANN_LOG = new ChannLog("chann_log", Material.WOOD);
 	public static final Block CHANN_LEAVES = new ChannLeaves("chann_leaves", Material.LEAVES);
+	
+	// FLOWERS
+	public static final BlockFlower RY_FLOWER = new BlockFlowerBase("ry_flower");
 }

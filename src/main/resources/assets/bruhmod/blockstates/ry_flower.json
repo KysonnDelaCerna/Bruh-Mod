@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "normal": { "model": "bruhmod:ry_flower" },
+        "type=dandelion": { "model": "bruhmod:ry_flower" }
+    }
+}
