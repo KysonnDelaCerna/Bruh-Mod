@@ -4,7 +4,6 @@ import com.KysonnDelaCerna.Bruh.Main;
 import com.KysonnDelaCerna.Bruh.init.ModBlocks;
 import com.KysonnDelaCerna.Bruh.init.ModItems;
 import com.KysonnDelaCerna.Bruh.util.IHasModel;
-import net.minecraft.block.BlockBush;
 import net.minecraft.block.BlockFlower;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;

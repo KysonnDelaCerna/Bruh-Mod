@@ -1,5 +1,10 @@
 {
     "variants": {
-        "normal": { "model": "bruhmod:chann_leaves" }
+        "normal": { "model": "bruhmod:chann_leaves" },
+        "inventory": { "model": "bruhmod:chann_leaves" },
+        "check_decay=true,decayable=true": { "model": "bruhmod:chann_leaves" },
+        "check_decay=false,decayable=true": { "model": "bruhmod:chann_leaves" },
+        "check_decay=true,decayable=false": { "model": "bruhmod:chann_leaves" },
+        "check_decay=false,decayable=false": { "model": "bruhmod:chann_leaves" }
     }
 }
