@@ -5,23 +5,14 @@
     [
  
     {
-      "item": "minecraft:milk_bucket"
-    },
- 
-    {
-      "item": "minecraft:dye",
-      "data": 3
-    },
-    
-    {
-      "item": "bruhmod:deanium_ore"
+      "item": "minecraft:deanium_block"
     }
-   
+
     ],
  
     "result":
     {
-        "item": "bruhmod:deanium_mix",
-        "count": 2
+        "item": "bruhmod:deanium_ingot",
+        "count": 9
     }
 }
