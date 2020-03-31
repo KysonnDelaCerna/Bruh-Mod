@@ -132,6 +132,6 @@ public class ChannLeaves extends BlockLeaves implements IHasModel {
 	@Override
     public Item getItemDropped(IBlockState state, Random rand, int fortune)
     {
-        return Item.getItemFromBlock(ModBlocks.DEANIUM_BLOCK);
+        return Item.getItemFromBlock(ModBlocks.CHANN_SAPLING);
     }
 }
