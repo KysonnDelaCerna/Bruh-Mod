@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "bruhmod:chann_ash"
+    },
+    
+    {
+      "item": "bruhmod:ry_flower"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "bruhmod:rychannite_rod",
+        "count": 1
+    }
+}

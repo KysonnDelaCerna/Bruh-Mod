@@ -33,6 +33,9 @@ public class ModItems {
 	// ITEMS
 	public static final Item DEANIUM_INGOT = new ItemBase("deanium_ingot");
 	public static final Item DEANIUM_MIX = new ItemBase("deanium_mix");
+	public static final Item CHANN_ASH = new ItemBase("chann_ash");
+	public static final Item RYCHANNITE_ROD = new ItemBase("rychannite_rod");
+	public static final Item RY_FIBER = new ItemBase("ry_fiber");
 	
 	// TOOLS
 	public static final ItemSword DEANIUM_SWORD = new ToolSword("deanium_sword", TOOL_MATERIAL_DEANIUM);

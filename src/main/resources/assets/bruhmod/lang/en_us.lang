@@ -10,7 +10,9 @@ item.deanium_helmet.name=Deanium Helmet
 item.deanium_chestplate.name=Deanium Chestplate
 item.deanium_leggings.name=Deanium Leggings
 item.deanium_boots.name=Deanium Boots
-
+item.chann_ash.name=Chann Ash
+item.ry_fiber.name=Ry Fiber
+item.rychannite_rod.name=Rychannite Rod
 
 //BLOCKS
 tile.deanium_block.name=Block of Deanium

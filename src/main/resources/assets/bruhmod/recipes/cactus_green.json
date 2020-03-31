@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "bruhmod:ry_flower"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "minecraft:dye",
+        "data": 2,
+        "count": 1
+    }
+}
