@@ -26,11 +26,11 @@ public class ModWorldGen implements IWorldGenerator {
 			IChunkProvider chunkProvider) {
 		if (world.provider.getDimension() == 0) {
 			generateOverworld(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
-			if (world.getBiomeForCoordsBody(new BlockPos(chunkX * 16, 70, chunkZ * 16)) instanceof BiomeHills) {
+			if (world.getBiomeForCoordsBody(new BlockPos(chunkX * 16, 70, chunkZ * 16)) instanceof BiomeForest) {
 				generatePlant(CHANN_TREE, world, random, chunkX, chunkZ, 2);
 			}
 			if (world.getBiomeForCoordsBody(new BlockPos(chunkX * 16, 70, chunkZ * 16)) instanceof BiomeForest) {
-				generatePlant(RY_FLOWER, world, random, chunkX, chunkZ, 2);
+				generatePlant(RY_FLOWER, world, random, chunkX, chunkZ, 1);
 			}
 		}
 	}

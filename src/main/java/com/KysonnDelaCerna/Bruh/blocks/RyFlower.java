@@ -11,8 +11,8 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class BlockFlowerBase extends BlockFlower implements IHasModel {
-	public BlockFlowerBase (String name) {
+public class RyFlower extends BlockFlower implements IHasModel {
+	public RyFlower (String name) {
 		setSoundType(SoundType.PLANT);
 		setUnlocalizedName(name);
 		setRegistryName(name);

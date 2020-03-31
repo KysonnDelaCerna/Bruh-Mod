@@ -1,5 +1,6 @@
 {
     "variants": {
+        "normal": { "model": "bruhmod:chann_log" },
         "axis=y":  { "model": "bruhmod:chann_log" },
         "axis=z":   { "model": "bruhmod:chann_log", "x": 90 },
         "axis=x":   { "model": "bruhmod:chann_log", "x": 90, "y": 90 },
