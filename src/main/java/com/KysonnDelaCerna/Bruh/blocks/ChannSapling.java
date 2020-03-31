@@ -6,6 +6,8 @@ import com.KysonnDelaCerna.Bruh.Main;
 import com.KysonnDelaCerna.Bruh.init.ModBlocks;
 import com.KysonnDelaCerna.Bruh.init.ModItems;
 import com.KysonnDelaCerna.Bruh.util.IHasModel;
+
+import net.minecraft.block.BlockPlanks;
 import net.minecraft.block.BlockSapling;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.state.IBlockState;
@@ -24,6 +26,8 @@ public class ChannSapling extends BlockSapling implements IHasModel {
 		setRegistryName(name);
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
+        setHardness(0.0F);
+        setSoundType(SoundType.PLANT);
 	}
 
 	@Override
