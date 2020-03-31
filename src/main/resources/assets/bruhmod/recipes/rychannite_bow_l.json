@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "FR ",
+        "F R",
+        "FR "
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "bruhmod:rychannite_rod"
+        },
+
+        "F":
+        {
+            "item": "bruhmod:ry_fiber"
+        }
+    },
+   
+    "result":
+    {
+        "item": "bruhmod:rychannite_bow",
+        "count": 1
+    }
+}

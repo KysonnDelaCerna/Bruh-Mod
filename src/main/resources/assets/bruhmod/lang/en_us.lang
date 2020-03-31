@@ -13,6 +13,7 @@ item.deanium_boots.name=Deanium Boots
 item.chann_ash.name=Chann Ash
 item.ry_fiber.name=Ry Fiber
 item.rychannite_rod.name=Rychannite Rod
+item.rychannite_bow.name=Rychannite Bow
 
 //BLOCKS
 tile.deanium_block.name=Block of Deanium

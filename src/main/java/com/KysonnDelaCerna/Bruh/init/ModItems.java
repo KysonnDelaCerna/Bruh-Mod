@@ -3,6 +3,7 @@ package com.KysonnDelaCerna.Bruh.init;
 import java.util.List;
 import com.KysonnDelaCerna.Bruh.items.ItemBase;
 import com.KysonnDelaCerna.Bruh.items.armor.ArmorBase;
+import com.KysonnDelaCerna.Bruh.items.tools.RychanniteBow;
 import com.KysonnDelaCerna.Bruh.items.tools.ToolAxe;
 import com.KysonnDelaCerna.Bruh.items.tools.ToolHoe;
 import com.KysonnDelaCerna.Bruh.items.tools.ToolPickaxe;
@@ -18,6 +19,7 @@ import net.minecraft.item.ItemSword;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemAxe;
+import net.minecraft.item.ItemBow;
 import net.minecraft.item.ItemHoe;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSpade;
@@ -43,6 +45,7 @@ public class ModItems {
 	public static final ItemPickaxe DEANIUM_PICKAXE = new ToolPickaxe("deanium_pickaxe", TOOL_MATERIAL_DEANIUM);
 	public static final ItemAxe DEANIUM_AXE = new ToolAxe("deanium_axe", TOOL_MATERIAL_DEANIUM);
 	public static final ItemHoe DEANIUM_HOE = new ToolHoe("deanium_hoe", TOOL_MATERIAL_DEANIUM);
+	public static final ItemBow RYCHANNITE_BOW = new RychanniteBow("rychannite_bow");
 	
 	// ARMOR
 	public static final Item DEANIUM_HELMET = new ArmorBase("deanium_helmet", ARMOR_MATERIAL_DEANIUM, 1, EntityEquipmentSlot.HEAD);
