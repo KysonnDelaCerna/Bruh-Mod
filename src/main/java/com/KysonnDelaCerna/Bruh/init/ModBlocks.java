@@ -15,6 +15,7 @@ public class ModBlocks {
 	public static final Block DEANIUM_ORE = new DeaniumOre("deanium_ore", Material.ROCK);
 	public static final Block CHANN_LOG = new ChannLog("chann_log");
 	public static final Block CHANN_LEAVES = new ChannLeaves("chann_leaves");
+	public static final Block CHANN_PLANKS = new ChannPlanks("chann_planks", Material.WOOD);
 	
 	// FLOWERS
 	public static final BlockFlower RY_FLOWER = new RyFlower("ry_flower");
