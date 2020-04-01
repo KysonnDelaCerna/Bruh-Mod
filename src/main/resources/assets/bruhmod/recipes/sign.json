@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "RRR",
+        "RRR",
+        " S "
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "bruhmod:chann_planks"
+        },
+
+        "S":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:sign",
+        "count": 3
+    }
+}

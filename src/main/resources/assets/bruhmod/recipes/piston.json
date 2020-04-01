@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "RRR",
+        "CIC",
+        "CDC"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "bruhmod:chann_planks"
+        },
+
+        "C":
+        {
+            "item": "minecraft:cobblestone"
+        },
+
+        "I":
+        {
+            "item": "minecraft:iron_ingot"
+        },
+
+        "D":
+        {
+            "item": "minecraft:redstone"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:piston",
+        "count": 1
+    }
+}

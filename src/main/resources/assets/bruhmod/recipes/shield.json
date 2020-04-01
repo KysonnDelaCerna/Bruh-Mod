@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "RIR",
+        "RRR",
+        " R "
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "bruhmod:chann_planks"
+        },
+
+        "I":
+        {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:shield",
+        "count": 1
+    }
+}

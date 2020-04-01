@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "bruhmod:chann_planks"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "minecraft:wooden_button",
+        "count": 1
+    }
+}

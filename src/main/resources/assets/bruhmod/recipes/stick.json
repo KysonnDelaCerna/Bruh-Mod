@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "R",
+        "R"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "bruhmod:chann_planks"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:stick",
+        "count": 4
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "WWW",
+        "RRR"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "bruhmod:chann_planks"
+        },
+        
+        "W":
+        {
+            "item": "minecraft:wool",
+            "data": 2
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:bed",
+        "count": 1,
+        "data": 2
+    }
+}

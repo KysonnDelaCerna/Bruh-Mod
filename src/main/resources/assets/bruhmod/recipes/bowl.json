@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "R R",
+        " R "
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "bruhmod:chann_planks"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:bowl",
+        "count": 4
+    }
+}

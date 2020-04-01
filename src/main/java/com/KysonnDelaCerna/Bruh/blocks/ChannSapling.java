@@ -11,9 +11,12 @@ import net.minecraft.block.BlockPlanks;
 import net.minecraft.block.BlockSapling;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenTrees;
@@ -44,5 +47,11 @@ public class ChannSapling extends BlockSapling implements IHasModel {
         worldIn.setBlockState(pos, Blocks.AIR.getDefaultState(), 4);
 
         worldgenerator.generate(worldIn, rand, pos);
+    }
+	
+	@Override
+    public void getSubBlocks(CreativeTabs itemIn, NonNullList<ItemStack> items)
+    {
+        items.add(new ItemStack(this));
     }
 }

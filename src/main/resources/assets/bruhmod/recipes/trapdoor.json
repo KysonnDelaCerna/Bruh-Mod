@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "RRR",
+        "RRR"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "bruhmod:chann_planks"
+        }
+    },
+   
+    "result":
+    {
+        "item": "minecraft:trapdoor",
+        "count": 1
+    }
+}
