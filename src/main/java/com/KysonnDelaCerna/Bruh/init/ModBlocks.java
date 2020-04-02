@@ -22,4 +22,7 @@ public class ModBlocks {
 	
 	// SAPLINGS
 	public static final Block CHANN_SAPLING = new ChannSapling("chann_sapling");
+	
+	// DOORS
+	public static final Block CHANN_DOOR = new ChannDoor("chann_door", Material.WOOD);
 }
