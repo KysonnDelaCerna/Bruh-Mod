@@ -5,6 +5,7 @@ import java.util.List;
 import com.KysonnDelaCerna.Bruh.blocks.*;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockFlower;
+import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 
@@ -20,6 +21,7 @@ public class ModBlocks {
 	public static final Block CHANN_FENCE = new ChannFence("chann_fence", Material.WOOD, MapColor.GREEN);
 	public static final Block CHANN_FENCE_GATE = new ChannFenceGate("chann_fence_gate", Material.WOOD);
 	public static final Block CHANN_STAIRS = new ChannStairs("chann_stairs");
+	public static final BlockSlab CHANN_HALF_SLAB = new ChannHalfSlab("chann_half_slab", Material.WOOD);
 	
 	// FLOWERS
 	public static final BlockFlower RY_FLOWER = new RyFlower("ry_flower");
