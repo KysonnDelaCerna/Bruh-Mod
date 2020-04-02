@@ -19,6 +19,7 @@ item.rychannite_shovel.name=Rychannite Shovel
 item.rychannite_pickaxe.name=Rychannite Pickaxe
 item.rychannite_axe.name=Rychannite Axe
 item.rychannite_hoe.name=Rychannite Hoe
+item.chann_boat.name=Chann Boat
 
 //BLOCKS
 tile.deanium_block.name=Block of Deanium

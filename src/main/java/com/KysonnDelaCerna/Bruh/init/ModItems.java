@@ -2,6 +2,7 @@ package com.KysonnDelaCerna.Bruh.init;
 
 import java.util.List;
 import com.KysonnDelaCerna.Bruh.items.ItemBase;
+import com.KysonnDelaCerna.Bruh.items.ItemChannBoat;
 import com.KysonnDelaCerna.Bruh.items.armor.ArmorBase;
 import com.KysonnDelaCerna.Bruh.items.tools.RychanniteBow;
 import com.KysonnDelaCerna.Bruh.items.tools.ToolAxe;
@@ -58,4 +59,7 @@ public class ModItems {
 	public static final Item DEANIUM_CHESTPLATE = new ArmorBase("deanium_chestplate", ARMOR_MATERIAL_DEANIUM, 1, EntityEquipmentSlot.CHEST);
 	public static final Item DEANIUM_LEGGINGS = new ArmorBase("deanium_leggings", ARMOR_MATERIAL_DEANIUM, 2, EntityEquipmentSlot.LEGS);
 	public static final Item DEANIUM_BOOTS = new ArmorBase("deanium_boots", ARMOR_MATERIAL_DEANIUM, 1, EntityEquipmentSlot.FEET);
+	
+	// BOATS
+	public static final Item CHANN_BOAT = new ItemChannBoat("chann_boat");
 }

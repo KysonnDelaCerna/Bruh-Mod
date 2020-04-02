@@ -1,8 +1,12 @@
 package com.KysonnDelaCerna.Bruh;
 
+import java.io.File;
+
+import com.KysonnDelaCerna.Bruh.init.ModEntities;
 import com.KysonnDelaCerna.Bruh.init.ModRecipes;
 import com.KysonnDelaCerna.Bruh.proxy.CommonProxy;
 import com.KysonnDelaCerna.Bruh.util.Reference;
+import com.KysonnDelaCerna.Bruh.util.handlers.RenderHandler;
 import com.KysonnDelaCerna.Bruh.world.ModWorldGen;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -18,12 +22,16 @@ public class Main {
 	@Instance
 	public static Main instance;
 	
+	public static File config;
+	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
 	
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event) {
 		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
+		ModEntities.registerEntities();
+		RenderHandler.registerEntityRenders();
 	}
 	
 	@EventHandler
