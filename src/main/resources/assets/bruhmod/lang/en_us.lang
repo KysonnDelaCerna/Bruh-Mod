@@ -14,6 +14,11 @@ item.chann_ash.name=Chann Ash
 item.ry_fiber.name=Ry Fiber
 item.rychannite_rod.name=Rychannite Rod
 item.rychannite_bow.name=Rychannite Bow
+item.rychannite_sword.name=Rychannite Sword
+item.rychannite_shovel.name=Rychannite Shovel
+item.rychannite_pickaxe.name=Rychannite Pickaxe
+item.rychannite_axe.name=Rychannite Axe
+item.rychannite_hoe.name=Rychannite Hoe
 
 //BLOCKS
 tile.deanium_block.name=Block of Deanium

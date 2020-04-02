@@ -1,0 +1,6 @@
+{
+   "parent": "item/handheld",
+   "textures": {
+       "layer0": "bruhmod:items/rychannite_hoe"
+   }
+}

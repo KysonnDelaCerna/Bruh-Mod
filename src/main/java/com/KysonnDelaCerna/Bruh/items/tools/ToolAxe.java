@@ -8,8 +8,8 @@ import net.minecraft.item.ItemAxe;
 import net.minecraft.item.Item.ToolMaterial;
 
 public class ToolAxe extends ItemAxe implements IHasModel {
-	public ToolAxe (String name, ToolMaterial material) {
-		super(material, 8.0f, -3.0f);
+	public ToolAxe (String name, ToolMaterial material, float damage) {
+		super(material, damage, -3.0f);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.TOOLS);

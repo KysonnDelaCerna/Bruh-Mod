@@ -31,6 +31,7 @@ public class ModItems {
 	// MATERIALS
 	public static final ToolMaterial TOOL_MATERIAL_DEANIUM = EnumHelper.addToolMaterial("tool_material_deanium", 3, 1874, 6.5f, 3.0f, 15).setRepairItem(new ItemStack(ModItems.DEANIUM_INGOT, 1));
 	public static final ArmorMaterial ARMOR_MATERIAL_DEANIUM = EnumHelper.addArmorMaterial("armor_material_deanium", Reference.MOD_ID + ":deanium", 40, new int[] {3,5,7,3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0f);
+	public static final ToolMaterial TOOL_RYCHANNITE_DEANIUM = EnumHelper.addToolMaterial("tool_rychannite_deanium", 1, 150, 3.0f, 1.0f, 20).setRepairItem(new ItemStack(ModItems.RYCHANNITE_ROD, 1));
 	
 	// ITEMS
 	public static final Item DEANIUM_INGOT = new ItemBase("deanium_ingot");
@@ -43,9 +44,14 @@ public class ModItems {
 	public static final ItemSword DEANIUM_SWORD = new ToolSword("deanium_sword", TOOL_MATERIAL_DEANIUM);
 	public static final ItemSpade DEANIUM_SHOVEL = new ToolSpade("deanium_shovel", TOOL_MATERIAL_DEANIUM);
 	public static final ItemPickaxe DEANIUM_PICKAXE = new ToolPickaxe("deanium_pickaxe", TOOL_MATERIAL_DEANIUM);
-	public static final ItemAxe DEANIUM_AXE = new ToolAxe("deanium_axe", TOOL_MATERIAL_DEANIUM);
+	public static final ItemAxe DEANIUM_AXE = new ToolAxe("deanium_axe", TOOL_MATERIAL_DEANIUM, 8.0f);
 	public static final ItemHoe DEANIUM_HOE = new ToolHoe("deanium_hoe", TOOL_MATERIAL_DEANIUM);
 	public static final ItemBow RYCHANNITE_BOW = new RychanniteBow("rychannite_bow");
+	public static final ItemSword RYCHANNITE_SWORD = new ToolSword("rychannite_sword", TOOL_MATERIAL_DEANIUM);
+	public static final ItemSpade RYCHANNITE_SHOVEL = new ToolSpade("rychannite_shovel", TOOL_MATERIAL_DEANIUM);
+	public static final ItemPickaxe RYCHANNITE_PICKAXE = new ToolPickaxe("rychannite_pickaxe", TOOL_MATERIAL_DEANIUM);
+	public static final ItemAxe RYCHANNITE_AXE = new ToolAxe("rychannite_axe", TOOL_MATERIAL_DEANIUM, 6.0f);
+	public static final ItemHoe RYCHANNITE_HOE = new ToolHoe("rychannite_hoe", TOOL_MATERIAL_DEANIUM);
 	
 	// ARMOR
 	public static final Item DEANIUM_HELMET = new ArmorBase("deanium_helmet", ARMOR_MATERIAL_DEANIUM, 1, EntityEquipmentSlot.HEAD);

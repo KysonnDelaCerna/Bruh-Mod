@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "CC",
+        "RC",
+        "R "
+    ],
+   
+    "key":
+    {
+        "C":
+        {
+            "item": "bruhmod:chann_log"
+        },
+        
+        "R":
+        {
+            "item": "bruhmod:rychannite_rod"
+        }
+    },
+   
+    "result":
+    {
+        "item": "bruhmod:rychannite_axe",
+        "count": 1
+    }
+}
