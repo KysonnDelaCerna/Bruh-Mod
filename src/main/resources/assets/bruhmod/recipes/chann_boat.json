@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "R R",
+        "RRR"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "bruhmod:chann_planks"
+        }
+    },
+   
+    "result":
+    {
+        "item": "bruhmod:chann_boat",
+        "count": 1
+    }
+}
