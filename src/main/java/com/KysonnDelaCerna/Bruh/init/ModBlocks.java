@@ -22,6 +22,7 @@ public class ModBlocks {
 	public static final Block CHANN_FENCE_GATE = new ChannFenceGate("chann_fence_gate", Material.WOOD);
 	public static final Block CHANN_STAIRS = new ChannStairs("chann_stairs");
 	public static final BlockSlab CHANN_HALF_SLAB = new ChannHalfSlab("chann_half_slab", Material.WOOD);
+	public static final Block RYCHANNITE_BLOCK = new RychanniteBlock("rychannite_block", Material.WOOD);
 	
 	// FLOWERS
 	public static final BlockFlower RY_FLOWER = new RyFlower("ry_flower");

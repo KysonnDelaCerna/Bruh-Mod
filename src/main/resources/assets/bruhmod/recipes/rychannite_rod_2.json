@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+      "item": "bruhmod:rychannite_block"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "bruhmod:rychannite_rod",
+        "count": 9
+    }
+}
